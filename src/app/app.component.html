@@ -1,0 +1,24 @@
+<div class = "table">
+  <fieldset>
+  <h1>Dojo Mail</h1>
+  <hr>
+  <table>
+    <thead>
+      <tr>
+        <th><h2>Email</h2></th>
+        <th><h2>Importance</h2></th>
+        <th><h2>Subject</h2></th>
+        <th><h2>Content</h2></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor='let i of users'>
+        <td>{{ i.email }}</td>
+        <td>{{ i.importance }}</td>
+        <td>{{ i.subject }}</td>
+        <td>{{ i.content }}</td>
+      </tr>
+  </tbody>
+  </table>
+  </fieldset>
+</div>

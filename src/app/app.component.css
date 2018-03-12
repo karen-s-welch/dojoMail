@@ -1,0 +1,25 @@
+.table{
+  display: block;
+  width: 50%;
+  text-align: left;
+}
+
+.table h2{
+  font-size: 14pt;
+  background-color: lightgray;
+  padding-right: 40px;
+}
+
+.table td{
+  font-size: 14pt;
+  line-height: 22pt;
+  padding-right: 40px;
+}
+
+tbody tr:nth-child(even){
+  background-color: lightblue;
+}
+
+tbody tr:nth-child(odd){
+  background-color: beige;
+}
